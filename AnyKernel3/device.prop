@@ -1,0 +1,8 @@
+maintainer=Psychotic
+customkernel=HavocKernel
+name=MiMix
+variant=Prime-Pro
+releasewithbar=2020/11/24
+ToolchainName=GCC
+romversion=EAS
+androidversion=Ten
