@@ -1013,7 +1013,7 @@ static ssize_t disksize_store(struct device *dev,
 	struct zram *zram = dev_to_zram(dev);
 	int err;
 
-	disksize = (u64)SZ_1M * 8192;
+	disksize = (u64)SZ_1M * 4096;
 	if (!disksize)
 		return -EINVAL;
 
